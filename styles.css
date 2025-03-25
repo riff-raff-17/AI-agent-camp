@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 32px;
+}
+
+.scoreboard, .current-scores {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+canvas {
+  border: 3px solid white;
+  background-color: #222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #ff6b6b;
+}
