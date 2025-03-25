@@ -1,1 +1,2 @@
-# AI-agent-camp
+# AI agent camp
+Small website project for the AI Agent holiday camp.
